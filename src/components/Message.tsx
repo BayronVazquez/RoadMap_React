@@ -1,5 +1,11 @@
+function getName()
+{
+    return "Will Smith";
+}
+
 function Message(){
-    return <h1>Hello Word</h1>;
+    const name = "John Doe";
+    return <h1>Hello {name} and {getName()}</h1>;
 }
 
 export default Message;
